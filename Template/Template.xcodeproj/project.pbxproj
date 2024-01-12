@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F800E62C2B4FF04900BCD867 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F800E62B2B4FF04900BCD867 /* Vehicle.swift */; };
+		F800E62D2B4FF04900BCD867 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F800E62B2B4FF04900BCD867 /* Vehicle.swift */; };
+		F800E62E2B4FF04900BCD867 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F800E62B2B4FF04900BCD867 /* Vehicle.swift */; };
+		F800E6312B4FF9EA00BCD867 /* TemplateHonda-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F81AC0362B4FE5DF008382A2 /* TemplateHonda-Info.plist */; };
+		F800E6322B4FF9ED00BCD867 /* TemplateYamaha-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F81AC0372B4FE618008382A2 /* TemplateYamaha-Info.plist */; };
+		F800E6332B4FF9F000BCD867 /* Template-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F81AC0382B4FE62E008382A2 /* Template-Info.plist */; };
+		F800E6342B500A4400BCD867 /* TemplateHonda.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81AC0342B4FE41F008382A2 /* TemplateHonda.xcassets */; };
+		F800E64A2B502A8400BCD867 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F800E6492B502A8400BCD867 /* AppStyle.swift */; };
+		F800E64B2B502A8400BCD867 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F800E6492B502A8400BCD867 /* AppStyle.swift */; };
+		F800E64C2B502A8400BCD867 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F800E6492B502A8400BCD867 /* AppStyle.swift */; };
+		F81AC0062B4FE304008382A2 /* TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0052B4FE304008382A2 /* TemplateApp.swift */; };
+		F81AC0082B4FE304008382A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0072B4FE304008382A2 /* ContentView.swift */; };
+		F81AC00A2B4FE304008382A2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0092B4FE304008382A2 /* Item.swift */; };
+		F81AC00C2B4FE305008382A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81AC00B2B4FE305008382A2 /* Assets.xcassets */; };
+		F81AC00F2B4FE305008382A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81AC00E2B4FE305008382A2 /* Preview Assets.xcassets */; };
+		F81AC0172B4FE311008382A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0072B4FE304008382A2 /* ContentView.swift */; };
+		F81AC0182B4FE311008382A2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0092B4FE304008382A2 /* Item.swift */; };
+		F81AC0192B4FE311008382A2 /* TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0052B4FE304008382A2 /* TemplateApp.swift */; };
+		F81AC01C2B4FE311008382A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81AC00E2B4FE305008382A2 /* Preview Assets.xcassets */; };
+		F81AC0262B4FE396008382A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0072B4FE304008382A2 /* ContentView.swift */; };
+		F81AC0272B4FE396008382A2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0092B4FE304008382A2 /* Item.swift */; };
+		F81AC0282B4FE396008382A2 /* TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0052B4FE304008382A2 /* TemplateApp.swift */; };
+		F81AC02B2B4FE396008382A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81AC00E2B4FE305008382A2 /* Preview Assets.xcassets */; };
+		F81AC0332B4FE414008382A2 /* TemplateYamaha.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81AC0322B4FE414008382A2 /* TemplateYamaha.xcassets */; };
+		F81AC03A2B4FEC2E008382A2 /* com.autoliv.Templett.plist in Resources */ = {isa = PBXBuildFile; fileRef = F81AC0392B4FEC2E008382A2 /* com.autoliv.Templett.plist */; };
+		F81AC03C2B4FECBA008382A2 /* com.autoliv.TemplateYamaha.plist in Resources */ = {isa = PBXBuildFile; fileRef = F81AC03B2B4FECBA008382A2 /* com.autoliv.TemplateYamaha.plist */; };
+		F81AC03E2B4FECC7008382A2 /* com.autoliv.TemplateHonda.plist in Resources */ = {isa = PBXBuildFile; fileRef = F81AC03D2B4FECC7008382A2 /* com.autoliv.TemplateHonda.plist */; };
+		F81AC0402B4FECEC008382A2 /* PropertiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC03F2B4FECEC008382A2 /* PropertiesController.swift */; };
+		F81AC0412B4FECEC008382A2 /* PropertiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC03F2B4FECEC008382A2 /* PropertiesController.swift */; };
+		F81AC0422B4FECEC008382A2 /* PropertiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC03F2B4FECEC008382A2 /* PropertiesController.swift */; };
+		F81AC0442B4FED6F008382A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0432B4FED6F008382A2 /* AppDelegate.swift */; };
+		F81AC0452B4FED6F008382A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0432B4FED6F008382A2 /* AppDelegate.swift */; };
+		F81AC0462B4FED6F008382A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AC0432B4FED6F008382A2 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F800E62B2B4FF04900BCD867 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		F800E6492B502A8400BCD867 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		F81AC0022B4FE304008382A2 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81AC0052B4FE304008382A2 /* TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateApp.swift; sourceTree = "<group>"; };
+		F81AC0072B4FE304008382A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F81AC0092B4FE304008382A2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F81AC00B2B4FE305008382A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F81AC00E2B4FE305008382A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F81AC0212B4FE311008382A2 /* TemplateHonda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateHonda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81AC0302B4FE396008382A2 /* TemplateYamaha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateYamaha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81AC0322B4FE414008382A2 /* TemplateYamaha.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TemplateYamaha.xcassets; sourceTree = "<group>"; };
+		F81AC0342B4FE41F008382A2 /* TemplateHonda.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TemplateHonda.xcassets; sourceTree = "<group>"; };
+		F81AC0362B4FE5DF008382A2 /* TemplateHonda-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemplateHonda-Info.plist"; sourceTree = "<group>"; };
+		F81AC0372B4FE618008382A2 /* TemplateYamaha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemplateYamaha-Info.plist"; sourceTree = "<group>"; };
+		F81AC0382B4FE62E008382A2 /* Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Template-Info.plist"; sourceTree = "<group>"; };
+		F81AC0392B4FEC2E008382A2 /* com.autoliv.Templett.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.autoliv.Templett.plist; sourceTree = "<group>"; };
+		F81AC03B2B4FECBA008382A2 /* com.autoliv.TemplateYamaha.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.autoliv.TemplateYamaha.plist; sourceTree = "<group>"; };
+		F81AC03D2B4FECC7008382A2 /* com.autoliv.TemplateHonda.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.autoliv.TemplateHonda.plist; sourceTree = "<group>"; };
+		F81AC03F2B4FECEC008382A2 /* PropertiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesController.swift; sourceTree = "<group>"; };
+		F81AC0432B4FED6F008382A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F81ABFFF2B4FE304008382A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81AC01A2B4FE311008382A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81AC0292B4FE396008382A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F81ABFF92B4FE304008382A2 = {
+			isa = PBXGroup;
+			children = (
+				F81AC0042B4FE304008382A2 /* Template */,
+				F81AC0032B4FE304008382A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F81AC0032B4FE304008382A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81AC0022B4FE304008382A2 /* Template.app */,
+				F81AC0212B4FE311008382A2 /* TemplateHonda.app */,
+				F81AC0302B4FE396008382A2 /* TemplateYamaha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F81AC0042B4FE304008382A2 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				F81AC0382B4FE62E008382A2 /* Template-Info.plist */,
+				F81AC0392B4FEC2E008382A2 /* com.autoliv.Templett.plist */,
+				F81AC0222B4FE379008382A2 /* Resources */,
+				F81AC0052B4FE304008382A2 /* TemplateApp.swift */,
+				F81AC0072B4FE304008382A2 /* ContentView.swift */,
+				F81AC0432B4FED6F008382A2 /* AppDelegate.swift */,
+				F81AC03F2B4FECEC008382A2 /* PropertiesController.swift */,
+				F800E62B2B4FF04900BCD867 /* Vehicle.swift */,
+				F800E6492B502A8400BCD867 /* AppStyle.swift */,
+				F81AC0092B4FE304008382A2 /* Item.swift */,
+				F81AC00B2B4FE305008382A2 /* Assets.xcassets */,
+				F81AC00D2B4FE305008382A2 /* Preview Content */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		F81AC00D2B4FE305008382A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F81AC00E2B4FE305008382A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F81AC0222B4FE379008382A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F81AC0312B4FE3B8008382A2 /* TemplateYamaha */,
+				F81AC0232B4FE380008382A2 /* TemplateHonda */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F81AC0232B4FE380008382A2 /* TemplateHonda */ = {
+			isa = PBXGroup;
+			children = (
+				F81AC0362B4FE5DF008382A2 /* TemplateHonda-Info.plist */,
+				F81AC0342B4FE41F008382A2 /* TemplateHonda.xcassets */,
+				F81AC03D2B4FECC7008382A2 /* com.autoliv.TemplateHonda.plist */,
+			);
+			path = TemplateHonda;
+			sourceTree = "<group>";
+		};
+		F81AC0312B4FE3B8008382A2 /* TemplateYamaha */ = {
+			isa = PBXGroup;
+			children = (
+				F81AC0322B4FE414008382A2 /* TemplateYamaha.xcassets */,
+				F81AC0372B4FE618008382A2 /* TemplateYamaha-Info.plist */,
+				F81AC03B2B4FECBA008382A2 /* com.autoliv.TemplateYamaha.plist */,
+			);
+			path = TemplateYamaha;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F81AC0012B4FE304008382A2 /* Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81AC0122B4FE305008382A2 /* Build configuration list for PBXNativeTarget "Template" */;
+			buildPhases = (
+				F81ABFFE2B4FE304008382A2 /* Sources */,
+				F81ABFFF2B4FE304008382A2 /* Frameworks */,
+				F81AC0002B4FE304008382A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Template;
+			productName = Template;
+			productReference = F81AC0022B4FE304008382A2 /* Template.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F81AC0152B4FE311008382A2 /* TemplateHonda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81AC01E2B4FE311008382A2 /* Build configuration list for PBXNativeTarget "TemplateHonda" */;
+			buildPhases = (
+				F81AC0162B4FE311008382A2 /* Sources */,
+				F81AC01A2B4FE311008382A2 /* Frameworks */,
+				F81AC01B2B4FE311008382A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemplateHonda;
+			productName = Template;
+			productReference = F81AC0212B4FE311008382A2 /* TemplateHonda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F81AC0242B4FE396008382A2 /* TemplateYamaha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81AC02D2B4FE396008382A2 /* Build configuration list for PBXNativeTarget "TemplateYamaha" */;
+			buildPhases = (
+				F81AC0252B4FE396008382A2 /* Sources */,
+				F81AC0292B4FE396008382A2 /* Frameworks */,
+				F81AC02A2B4FE396008382A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemplateYamaha;
+			productName = Template;
+			productReference = F81AC0302B4FE396008382A2 /* TemplateYamaha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F81ABFFA2B4FE304008382A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F81AC0012B4FE304008382A2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F81ABFFD2B4FE304008382A2 /* Build configuration list for PBXProject "Template" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F81ABFF92B4FE304008382A2;
+			productRefGroup = F81AC0032B4FE304008382A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F81AC0012B4FE304008382A2 /* Template */,
+				F81AC0152B4FE311008382A2 /* TemplateHonda */,
+				F81AC0242B4FE396008382A2 /* TemplateYamaha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F81AC0002B4FE304008382A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81AC00F2B4FE305008382A2 /* Preview Assets.xcassets in Resources */,
+				F81AC00C2B4FE305008382A2 /* Assets.xcassets in Resources */,
+				F800E6332B4FF9F000BCD867 /* Template-Info.plist in Resources */,
+				F81AC03A2B4FEC2E008382A2 /* com.autoliv.Templett.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81AC01B2B4FE311008382A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81AC01C2B4FE311008382A2 /* Preview Assets.xcassets in Resources */,
+				F800E6312B4FF9EA00BCD867 /* TemplateHonda-Info.plist in Resources */,
+				F81AC03E2B4FECC7008382A2 /* com.autoliv.TemplateHonda.plist in Resources */,
+				F800E6342B500A4400BCD867 /* TemplateHonda.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81AC02A2B4FE396008382A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81AC03C2B4FECBA008382A2 /* com.autoliv.TemplateYamaha.plist in Resources */,
+				F800E6322B4FF9ED00BCD867 /* TemplateYamaha-Info.plist in Resources */,
+				F81AC02B2B4FE396008382A2 /* Preview Assets.xcassets in Resources */,
+				F81AC0332B4FE414008382A2 /* TemplateYamaha.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F81ABFFE2B4FE304008382A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F800E62C2B4FF04900BCD867 /* Vehicle.swift in Sources */,
+				F800E64A2B502A8400BCD867 /* AppStyle.swift in Sources */,
+				F81AC0082B4FE304008382A2 /* ContentView.swift in Sources */,
+				F81AC00A2B4FE304008382A2 /* Item.swift in Sources */,
+				F81AC0402B4FECEC008382A2 /* PropertiesController.swift in Sources */,
+				F81AC0442B4FED6F008382A2 /* AppDelegate.swift in Sources */,
+				F81AC0062B4FE304008382A2 /* TemplateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81AC0162B4FE311008382A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F800E62D2B4FF04900BCD867 /* Vehicle.swift in Sources */,
+				F800E64B2B502A8400BCD867 /* AppStyle.swift in Sources */,
+				F81AC0172B4FE311008382A2 /* ContentView.swift in Sources */,
+				F81AC0182B4FE311008382A2 /* Item.swift in Sources */,
+				F81AC0412B4FECEC008382A2 /* PropertiesController.swift in Sources */,
+				F81AC0452B4FED6F008382A2 /* AppDelegate.swift in Sources */,
+				F81AC0192B4FE311008382A2 /* TemplateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81AC0252B4FE396008382A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F800E62E2B4FF04900BCD867 /* Vehicle.swift in Sources */,
+				F800E64C2B502A8400BCD867 /* AppStyle.swift in Sources */,
+				F81AC0262B4FE396008382A2 /* ContentView.swift in Sources */,
+				F81AC0272B4FE396008382A2 /* Item.swift in Sources */,
+				F81AC0422B4FECEC008382A2 /* PropertiesController.swift in Sources */,
+				F81AC0462B4FED6F008382A2 /* AppDelegate.swift in Sources */,
+				F81AC0282B4FE396008382A2 /* TemplateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F81AC0102B4FE305008382A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F81AC0112B4FE305008382A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F81AC0132B4FE305008382A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GTRP3V6Q5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Template/Template-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Template;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoliv.Template;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "TEMPLATE DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F81AC0142B4FE305008382A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GTRP3V6Q5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Template/Template-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Template;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoliv.Template;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TEMPLATE;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F81AC01F2B4FE311008382A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GTRP3V6Q5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TemplateHonda-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TemplateHonda;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoliv.TemplateHonda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "TEMPLATEHONDA DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F81AC0202B4FE311008382A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GTRP3V6Q5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TemplateHonda-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TemplateHonda;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoliv.TemplateHonda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TEMPLATEHONDA;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F81AC02E2B4FE396008382A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GTRP3V6Q5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TemplateYamaha-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TempalteYamaha;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoliv.TemplateYamaha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "TEMPLATEYAMAHA DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F81AC02F2B4FE396008382A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Template/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GTRP3V6Q5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TemplateYamaha-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TempalteYamaha;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoliv.TemplateYamaha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TEMPLATEYAMAHA;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F81ABFFD2B4FE304008382A2 /* Build configuration list for PBXProject "Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81AC0102B4FE305008382A2 /* Debug */,
+				F81AC0112B4FE305008382A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81AC0122B4FE305008382A2 /* Build configuration list for PBXNativeTarget "Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81AC0132B4FE305008382A2 /* Debug */,
+				F81AC0142B4FE305008382A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81AC01E2B4FE311008382A2 /* Build configuration list for PBXNativeTarget "TemplateHonda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81AC01F2B4FE311008382A2 /* Debug */,
+				F81AC0202B4FE311008382A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81AC02D2B4FE396008382A2 /* Build configuration list for PBXNativeTarget "TemplateYamaha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81AC02E2B4FE396008382A2 /* Debug */,
+				F81AC02F2B4FE396008382A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F81ABFFA2B4FE304008382A2 /* Project object */;
+}
